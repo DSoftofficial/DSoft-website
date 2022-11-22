@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background: #000;
+    height: 10vh;
+}
+
+footer{
+    background: #000;
+    height: 10vh;
+}
+
+@keyframes sliderwrapper {
+    0%{
+        transform: translate(-118vw);
+    }
+    
+    100%{
+        transform: translate(118vw);
+    }
+
+
+}
+
+
+#img1{
+    transform: translate(118vw);
+    /* overflow: hidden; */
+}
+
+#img2{
+    transform: translate(118vw);
+    /* overflow: hidden; */
+}
+
+
+.sliderwrapper{
+    width: 118vw;
+    height: 77vh;
+    overflow: hidden;
+}

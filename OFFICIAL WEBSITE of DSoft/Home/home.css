@@ -1,0 +1,146 @@
+:root{
+    --main-bg-color:#dfe4ff; 
+}
+
+header{
+    overflow: hidden;
+    position: sticky;
+    z-index: 50px;
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+    height: 94px;
+    align-items: center;
+    background-color: var(--main-bg-color);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    font-size: 20px;
+    margin: 5px;
+    padding: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    font-weight: lighter;
+}
+
+nav ul li a:hover{
+    background: -webkit-linear-gradient(25deg, rgb(0, 119, 255), rgb(111, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+.navimg{
+    width: 185px;
+    height: 90px;
+}
+
+footer{
+    background: var(--main-bg-color);
+    width: 1248px;
+    height: 92px;
+    padding: 27px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchBarinput{
+    width: 234px;
+    height: 16px;
+    border-radius: 26px;
+    outline: none;
+    padding: 8px;
+    border: 2px solid black;
+    font-weight: 500;
+}
+
+#searchBar{
+    padding: 26px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchIcon{
+    position: absolute;
+    font-size: 14px;
+    padding: 14px;
+}
+
+.searchIcon:hover{
+    background: -webkit-linear-gradient(25deg, rgb(0, 119, 255), rgb(111, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+#fassearchIcon{
+    font-size: 18px;
+}
+
+#fassearchIcon:hover{
+    font-size: 20px;
+}
+
+.searchform{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.user{
+    padding: 24px;
+}
+
+#fa-user{
+    font-size: 20px;
+}
+
+#fa-user:hover{
+    background: -webkit-linear-gradient(25deg, rgb(0, 119, 255), rgb(111, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+main{
+    width: 1301px;
+    height: 600vh;
+}
+
+.slider{
+    display: flex;
+    /* height: 532px; */
+    justify-content: center;
+    align-items: center;
+    /* animation: slider infinite linear; */
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100% 100%;
+    background-image: url(/img/slider/IntroducingDAssistant1.1.jpg);
+    animation: slider linear 0s infinite forwards;
+}
+
+@media screen {
+    
+}
+
