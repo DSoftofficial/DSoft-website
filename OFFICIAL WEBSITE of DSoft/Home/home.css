@@ -122,6 +122,18 @@ footer{
     cursor: pointer;
 }
 
+#fa-cart{
+    padding-left: 14px;
+    font-size: 20px;
+}
+#fa-cart:hover{
+    background: -webkit-linear-gradient(25deg, rgb(0, 119, 255), rgb(111, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+
 main{
     width: 1301px;
     height: 600vh;
